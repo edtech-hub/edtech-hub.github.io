@@ -94676,7 +94676,7 @@ var $async$AY=A.a0(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 l=t.z
 s=7
-return A.a5(n.a.JQ("http://18.206.248.91:3000/signin",A.aA(["email",a,"password",b],t.N,l),A.aeG("application/x-www-form-urlencoded"),l),$async$AY)
+return A.a5(n.a.JQ("https://api.edastra.in/signin",A.aA(["email",a,"password",b],t.N,l),A.aeG("application/x-www-form-urlencoded"),l),$async$AY)
 case 7:l=d
 q=l
 s=1
@@ -94707,7 +94707,7 @@ n=n.b
 n===$&&A.b()
 n.n(0,"Authorization","Bearer "+A.i(a))
 s=3
-return A.a5(o.KH(0,"http://18.206.248.91:3000/validatetoken",t.z),$async$Ck)
+return A.a5(o.KH(0,"https://api.edastra.in/validatetoken",t.z),$async$Ck)
 case 3:q=c
 s=1
 break
@@ -94722,7 +94722,7 @@ n=n.b
 n===$&&A.b()
 n.n(0,"Authorization","Bearer "+A.i(a))
 s=3
-return A.a5(o.KH(0,"http://18.206.248.91:3000/getinfo",t.z),$async$ww)
+return A.a5(o.KH(0,"https://api.edastra.in/getinfo",t.z),$async$ww)
 case 3:q=c
 s=1
 break
@@ -94740,7 +94740,7 @@ k===$&&A.b()
 k.n(0,"Authorization","Bearer "+A.i(b))
 k=t.z
 s=7
-return A.a5(l.JQ("http://18.206.248.91:3000/resetpassword",A.aA(["p",a],t.N,k),A.aeG("application/x-www-form-urlencoded"),k),$async$BY)
+return A.a5(l.JQ("https://api.edastra.in/resetpassword",A.aA(["p",a],t.N,k),A.aeG("application/x-www-form-urlencoded"),k),$async$BY)
 case 7:k=d
 q=k
 s=1
@@ -94768,7 +94768,7 @@ var $async$Ap=A.a0(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 l=t.z
 s=7
-return A.a5(n.a.JQ("http://18.206.248.91:3000/forgotpassword",A.aA(["email",a,"dob",b],t.N,l),A.aeG("application/x-www-form-urlencoded"),l),$async$Ap)
+return A.a5(n.a.JQ("https://api.edastra.in/forgotpassword",A.aA(["email",a,"dob",b],t.N,l),A.aeG("application/x-www-form-urlencoded"),l),$async$Ap)
 case 7:l=d
 q=l
 s=1
