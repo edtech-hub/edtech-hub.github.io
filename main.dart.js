@@ -29183,7 +29183,7 @@ q=r[0]
 if(a===A.hw(q,0,q.length,B.a6,!1)){if(J.ch(r[1])!==0){p=r[1]
 p=A.hw(p,0,p.length,B.a6,!1)}else p=null
 return p}}return null},
-aOx(a,b,c,d,e,f,g){var s,r,q,p,o,n,m,l
+aOx(a,b,c,d,e,f,g){var s,r,q,p,o,n,m
 if(e!=null)d=new A.b1(Date.now(),!1).I(0,e)
 s=A.oJ(B.q6,a,B.a6,!1)
 r=A.oJ(B.q6,b,B.a6,!1)
@@ -29191,9 +29191,8 @@ if(d!=null){q=d.asQ()
 p=B.q4[A.dP(q)-1]
 o=B.pR[A.bl(q)-1]
 n="; expires="+(p+", "+B.h.jS(""+A.cl(q),2,"0")+" "+o+" "+A.bj(q)+" "+B.h.jS(""+A.Q9(q),2,"0")+":"+B.h.jS(""+A.Qa(q),2,"0")+":"+B.h.jS(""+A.aEu(q),2,"0")+" UTC")}else n=""
-m=c!=null?"; domain="+c:""
-l=B.b.bU(A.a([s,"=",r,n,"",m,g===!0?"; secure":""],t.s),"")
-document.cookie=l},
+m=B.b.bU(A.a([s,"=",r,n,"","",g===!0?"; secure":""],t.s),"")
+document.cookie=m},
 aGd(a){var s=null
 if(A.aFZ(a)!=null){A.aOx(a,"",s,A.a6o(0,!1),s,s,s)
 return!0}return!1},
@@ -96747,7 +96746,7 @@ s.ai6(q,B.Hr,q,"Connection Error",r)}else{s=J.e6(a)
 r=this.a
 if(J.be(s.gbM(a),"success")){r.z=J.be(s.gbM(a),"token")
 r.L(new A.awT())
-A.aOx("t",A.i(r.z),"localhost",q,B.oE,q,!0)
+A.aOx("t",A.i(r.z),q,q,B.oE,q,!0)
 s=r.c
 s.toString
 A.jH(s).w_(0,"/")}else r.L(new A.awU(r,a))}},
