@@ -96651,7 +96651,7 @@ A.d0(o,o,B.by,o,o,o,o,o,o,o,o,13.8,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)
 s=this.a
 r=A.aG("Hi "+s.z+", Create a New Password",o,o,o,B.jf,o,o,o)
 if(s.Q<8)q=A.aG("*Password must be atleast 8 characters",o,o,o,A.d0(o,o,B.by,o,o,o,o,o,o,o,o,13.8,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)
-else q=s.x!==s.y?A.aG("*Passworda don't match",o,o,o,A.d0(o,o,B.by,o,o,o,o,o,o,o,o,13.8,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o):B.D
+else q=s.x!==s.y?A.aG("*Both passwords don't match",o,o,o,A.d0(o,o,B.by,o,o,o,o,o,o,o,o,13.8,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o):B.D
 p=t.p
 return A.P(A.a([B.j4,r,B.j3,A.l(A.D(A.a([A.l(q,o,o)],p),B.d,B.f,B.c,o),o,440),B.c4,s.IZ(),B.h9,s.D3(),B.Uk],p),B.d,B.f,B.c)},
 $S:17}
